@@ -1,0 +1,17 @@
+name: "Découvrir Golang"
+description: "Tutoriels, articles et extraits de code commentés sur le langage Go - golang"
+keywords: ""
+
+robots: "follow, index"
+author: Benjamin BALET
+e-mail: benjamin.balet@gmail.com
+author-google: "https://plus.google.com/+BenjaminBALET"
+publisher-google: "https://plus.google.com/+DecouvrirgolangNetEtRapide"
+url: "http://decouvrir-golang.net"
+domain: "decouvrir-golang.net"
+
+permalink: none
+enable-ads: false
+google-analytics: "UA-46328819-1"
+encoding: UTF-8
+lsi: true

@@ -1,0 +1,5 @@
+
+# Interdir aux robots l'indexation et la mise en cache des pages de ce répertoire
+<IfModule mod_headers.c>
+	Header set X-Robots-Tag "follow, noindex, noarchive"
+</IfModule>
