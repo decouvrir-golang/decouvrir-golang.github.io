@@ -1,0 +1,50 @@
+
+
+<div class="share-reveal" style="display: block; position: absolute; bottom: 14px; left: 50%; margin-left: -230px; z-index: 20;">
+	<div class="g-plusone" data-annotation="inline" data-width="120"></div>
+	<div class="g-plus" data-action="share"></div>
+	<a href="https://twitter.com/share" class="twitter-share-button" data-via="BenjaminBALET" data-lang="fr">Tweeter</a>
+	<div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true"></div>
+</div>
+
+	<a class="btn" href="/" style="display: block; position: absolute; top: 0; right: 0;">
+	<i class="icon-home"></i> &nbsp;
+	Retourner sur le site web
+	</a>
+	
+	{% include google-analytics.html %}
+	  
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	
+	<!-- Badges Google+ //-->
+	<script type="text/javascript" src="https://apis.google.com/js/platform.js">
+	{lang: 'fr'}
+	</script>
+	
+	<!-- Bouton tweeter //-->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
+	<!-- Bouton Google plus -->
+	<script type="text/javascript">
+	  window.___gcfg = {lang: 'fr'};
+
+	  (function() {
+		var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		po.src = 'https://apis.google.com/js/platform.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+	  })();
+	</script>
+	
+	<!-- Bouton Facebook //-->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+	
+	</body>
+</html>
